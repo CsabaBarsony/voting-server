@@ -4,7 +4,6 @@ import {expect} from 'chai';
 import makeStore from '../src/store';
 
 describe('store', () => {
-
     it('is a Redux store configured with the correct reducer', () => {
         const store = makeStore();
         expect(store.getState()).to.equal(Map());
@@ -18,4 +17,7 @@ describe('store', () => {
         }));
     });
 
+    it('majom', () => {
+        expect(true).to.equal(true);
+    })
 });
